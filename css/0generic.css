@@ -1,7 +1,7 @@
 .EntirePage {
+    background-color: #1e2139;
     background-image: url('/images/page_background.webp');
-    background-repeat: repeat;
-    background-transform: rotate(180deg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
 }
