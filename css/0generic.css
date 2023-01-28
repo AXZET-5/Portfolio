@@ -1,6 +1,7 @@
 .EntirePage {
     background-image: url('/images/page_background.webp');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    transform: rotate(180deg);
     background-attachment: fixed;
     margin: 0;
 }
