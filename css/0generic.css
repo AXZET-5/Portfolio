@@ -1,3 +1,9 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+
+
 .EntirePage {
     background-color: #1e2139;
     background-image: url('/images/page_background.webp');
