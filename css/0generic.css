@@ -5,7 +5,7 @@
 
 
 .EntirePage {
-    background-color: white;
+    background-color: rgb(255, 235, 255);
     background-image: url('/images/page_background.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
