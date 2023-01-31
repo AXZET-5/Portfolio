@@ -13,7 +13,8 @@
 }
 .CardLink:hover {
     cursor: pointer;
-    background-color: rgba(255, 235, 255, 1.0);
+    background-color: rgba(255, 245, 255, 1.0);
+    scale: 1.05;
 }
 .CardMega{
     background-color: rgba(245, 245, 245, 0.8);
