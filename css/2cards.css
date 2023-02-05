@@ -1,3 +1,15 @@
+.Columnising {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .Columnising {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .Card {
     background-color: rgba(245, 245, 245, 0.8);
     padding: 20px;
