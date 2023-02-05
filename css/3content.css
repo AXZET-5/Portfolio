@@ -24,6 +24,7 @@
 }
 .CardImage {
     display: block;
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 60%;
