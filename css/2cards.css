@@ -8,7 +8,13 @@
     .Columnising {
         grid-template-columns: 1fr 1fr;
     }
+    .Columnised {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
+
 
 .Card {
     background-color: rgba(245, 245, 245, 0.8);
