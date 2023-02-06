@@ -17,7 +17,9 @@
     }
 }
 
-
+.ImageColumn {
+    max-width: 290px;
+}
 
 .Card {
     background-color: rgba(245, 245, 245, 0.8);
