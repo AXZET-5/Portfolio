@@ -9,6 +9,10 @@
     font: bold 22px Sans-Serif;
     color: #3F3F3F
 }
+.CardLargeTitle {
+    font: bold 50px Sans-Serif;
+    color: #3F3F3F
+}
 .CardHumongousTitle {
     font: bold 100px Monospace;
     color: #3F3F3F
