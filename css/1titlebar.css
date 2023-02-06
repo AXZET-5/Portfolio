@@ -35,6 +35,8 @@
     display: block;
     left: 0;
     top: 0;
+
+    margin: 10px;
 }
 .Title:hover{
     scale: 1.05
@@ -44,6 +46,8 @@
     display: block;
     right: 0;
     top: 0;
+
+    margin: 10px;
 }
 .MenuButton {
     padding-top: 10px;
