@@ -10,6 +10,8 @@
     position: sticky;
     top: 0;
 
+    display: block;
+
     z-index: 1;
 }
 .Title {
