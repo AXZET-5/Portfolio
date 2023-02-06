@@ -32,7 +32,7 @@
     transition-duration: 0.4s;
 
     position: absolute;
-    display: inline-block;
+    display: inline;
     left: 0;
     top: 0;
 
@@ -43,7 +43,7 @@
 }
 .MenuButtonWrapper {
     position: absolute;
-    display: inline-block;
+    display: inline;
     right: 0;
     top: 0;
 
