@@ -32,18 +32,16 @@
     transition-duration: 0.4s;
 
     position: absolute;
-    top: 0px;
-    left: 0px;
-    margin: 10px;
+    top: 12px;
+    left: 10px;
 }
 .Title:hover{
     scale: 1.05
 }
 .MenuButtonWrapper {
     position: absolute;
-    top: 0px;
-    right: 0px;
-    margin: 10px;
+    top: 10px;
+    right: 10px;
 }
 .MenuButton {
     padding-top: 10px;
