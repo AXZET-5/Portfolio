@@ -3,7 +3,7 @@
     backdrop-filter: blur(3px);
     text-align: center;
     height: 70px;
-    width: auto;
+    width: 100%;
     box-shadow: 0px 0px 10px 10px rgba(200,200,200,0.8);
 
     position: absolute;
