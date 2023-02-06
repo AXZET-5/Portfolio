@@ -3,7 +3,7 @@
     backdrop-filter: blur(3px);
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     box-shadow: 0px 0px 10px 10px rgba(200,200,200,0.8);
 
     position: -webkit-sticky;
