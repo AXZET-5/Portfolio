@@ -31,8 +31,7 @@
 
     transition-duration: 0.4s;
 
-    position: absolute;
-    display: inline;
+    position: fixed;
     left: 0;
     top: 0;
 
@@ -42,8 +41,7 @@
     scale: 1.05
 }
 .MenuButtonWrapper {
-    position: absolute;
-    display: inline;
+    position: fixed;
     right: 0;
     top: 0;
 
