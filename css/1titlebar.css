@@ -10,8 +10,6 @@
     position: sticky;
     top: 0;
 
-    display: block;
-
     z-index: 1;
 }
 .Title {
@@ -33,20 +31,14 @@
 
     transition-duration: 0.4s;
 
-    position: absolute;
-    left: 0;
-    top: 0;
-
+    float left;
     margin: 10px;
 }
 .Title:hover{
     scale: 1.05
 }
 .MenuButtonWrapper {
-    position: absolute;
-    right: 0;
-    top: 0;
-
+    float right;
     margin: 10px;
 }
 .MenuButton {
