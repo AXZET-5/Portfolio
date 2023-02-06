@@ -7,6 +7,8 @@
 @media only screen and (min-width: 800px) {
     .Columnising {
         grid-template-columns: 1fr 1fr;
+    }
+    .Columnised {
         margin-top: auto;
         margin-bottom: auto;
     }
