@@ -13,10 +13,10 @@
         margin-bottom: auto;
     }
     .Columnised > p {
-        text-align: left;
+        text-align: left; !important
     }
     .CardImage {
-        margin-bottom: 20px;
+        margin-bottom: 20px; !important
     }
 }
 
