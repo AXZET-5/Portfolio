@@ -31,14 +31,14 @@
 
     transition-duration: 0.4s;
 
-    float left;
+    float: left;
     margin: 10px;
 }
 .Title:hover{
     scale: 1.05
 }
 .MenuButtonWrapper {
-    float right;
+    float: right;
     margin: 10px;
 }
 .MenuButton {
