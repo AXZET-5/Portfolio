@@ -6,8 +6,7 @@
     padding-bottom: 15px;
     box-shadow: 0px 0px 10px 10px rgba(200,200,200,0.8);
 
-    position: -webkit-sticky;
-    position: sticky;
+    position: absolute;
     top: 0;
 
     z-index: 1;
