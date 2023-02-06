@@ -4,14 +4,14 @@
     gap: 1rem;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     .Columnising {
         grid-template-columns: 1fr 1fr;
     }
     .Columnised {
         margin-left: auto;
         margin-right: auto;
-        text-align: left;
+        text-align: left; !important
     }
 }
 
