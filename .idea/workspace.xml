@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a4c0da-3dd8-4e2f-8588-604c6696283c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievements/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/achievements/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/education/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experience/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
