@@ -17,7 +17,7 @@
     transition-duration: 0.4s;
 
     position: fixed;
-    top: 50;
+    top: 80px;
     right: 10px;
     display: none;
 }
