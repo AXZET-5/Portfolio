@@ -5,7 +5,6 @@
 
 
 .EntirePage {
-    -webkit-animation: fadein 1.5s;
     background-color: rgb(255, 245, 255);
     background-image: url('/images/page_background.webp?201611');
     background-repeat: no-repeat;
