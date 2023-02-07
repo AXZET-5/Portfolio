@@ -7,15 +7,11 @@
     }
 }
 
-.HamburgerMenuButton {
-    margin-right: auto !important;
-}
-
 .Hamburger {
     background-color: rgba(245, 245, 245, 0.8);
     padding: 20px;
     box-shadow: 0px 0px 10px 10px rgba(200,200,200,0.3);
-    width: 300px;
+    width: 200px;
     height: 300px;
     border-radius: 20px;
     transition-duration: 0.4s;
