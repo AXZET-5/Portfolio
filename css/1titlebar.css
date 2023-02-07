@@ -7,6 +7,11 @@
     }
 }
 
+.HamburgerMenuButton {
+    text-align: left !important;
+    justify-content: left !important;
+}
+
 .Hamburger {
     background-color: rgba(245, 245, 245, 0.8);
     padding: 20px;
