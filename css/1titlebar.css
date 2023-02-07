@@ -19,7 +19,7 @@
     position: fixed;
     top: 20;
     right: 10px;
-    display: inline;
+    display: none;
 }
 
 .TitleBarAligner {
