@@ -9,10 +9,8 @@
 
 .Hamburger {
     background-color: rgba(245, 245, 245, 0.8);
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0px 0px 10px 10px rgba(200,200,200,0.3);
-    width: 200px;
-    height: 300px;
     border-radius: 20px;
     transition-duration: 0.4s;
 
@@ -20,6 +18,11 @@
     top: 80px;
     right: 10px;
     display: none;
+}
+
+.HamburgerMenuButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .TitleBarAligner {
