@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1100px) {
+    .MenuButtonWrapper {
+        display: none;
+    }
+}
+
 .TitleBarAligner {
     height: 70px;
 }
@@ -42,6 +48,7 @@
 }
 .MenuButtonWrapper {
     position: fixed;
+    display: inline;
     top: 12px;
     right: 10px;
 }
