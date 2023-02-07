@@ -5,3 +5,13 @@ const snapToTop = () => {
         behaviour: "smooth",
     })
 }
+
+const toggleHamburger = () => {
+    var hamburgerMenu = document.getElementById("hamburgerMenu")
+    if (hamburgerMenu.style.display === "none"){
+        hamburgerMenu.style.display = "inline"
+    }
+    if (hamburgerMenu.style.display === "inline"){
+        hamburgerMenu.style.display = "none"
+    }
+}
