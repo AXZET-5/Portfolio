@@ -8,8 +8,7 @@
 }
 
 .HamburgerMenuButton {
-    text-align: left !important;
-    justify-content: left !important;
+    margin-right: auto;
 }
 
 .Hamburger {
