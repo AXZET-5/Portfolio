@@ -9,9 +9,10 @@ const snapToTop = () => {
 const toggleHamburger = () => {
     console.log("activated")
     var hamburgerMenu = document.getElementById("hamburgerMenu")
+    hamburgerMenu.style.display = "inline"
     if (hamburgerMenu.style.display === "none"){
         console.log("none")
-        hamburgerMenu.style.display = "inline"
+
     }
     if (hamburgerMenu.style.display === "inline"){
         console.log("inline")
