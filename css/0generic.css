@@ -6,7 +6,7 @@
 
 .EntirePage {
     -webkit-animation: fadein 1.5s;
-    background-color: rgb(255, 245, 255);
+    background-color: black;
     background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.0) ), url('/images/page_background.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
