@@ -2,6 +2,9 @@
     .MenuButtonWrapper {
         display: none !important;
     }
+    .HamburgerButtonWrapper {
+        display: inline !important;
+    }
 }
 
 .TitleBarAligner {
@@ -49,6 +52,12 @@
 .MenuButtonWrapper {
     position: fixed;
     display: inline;
+    top: 12px;
+    right: 10px;
+}
+.HamburgerButtonWrapper {
+    position: fixed;
+    display: none;
     top: 12px;
     right: 10px;
 }
