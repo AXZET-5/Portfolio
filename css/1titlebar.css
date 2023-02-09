@@ -23,9 +23,11 @@
 .HamburgerMenuButton {
     margin-top: 10px;
     margin-bottom: 10px;
+}
 
-    padding-left: 10px;
-    padding-right: 10px;
+.HamburgerIcon {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .TitleBarAligner {
