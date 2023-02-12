@@ -22,7 +22,6 @@
 
 .BottomBox {
     background: rgba(210, 210, 215,0.6);
-    backdrop-filter: blur(3px);
 
     padding-top: 5px;
     padding-bottom: 5px;
