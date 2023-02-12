@@ -20,6 +20,13 @@
 
 
 
+.BottomBox {
+    background: rgba(210, 210, 215,0.6);
+    backdrop-filter: blur(3px);
+}
+
+
+
 .SnapToTop {
     background-color: white;
     font: bold 20px Sans-Serif;
