@@ -17,4 +17,7 @@ const toggleHamburger = () => {
 const closeMenu = () => {
     var hamburgerMenu = document.getElementById("hamburgerMenu")
     hamburgerMenu.classList.remove('active')
+
+    var everythingBlocker = document.getElementById("blockEverything")
+    everythingBlocker.classList.remove('active')
 }
