@@ -41,6 +41,7 @@
 }
 .CardImageCaption2 {
     text-align: center;
-    font: bold 16px Segoe UI, AvenirNext-Regular, Sans-Serif;
+    font: 16px Segoe UI, AvenirNext-Regular, Sans-Serif;
+    font-weight: 600;
     color: #3F3F3F;
 }
