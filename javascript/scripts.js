@@ -19,6 +19,6 @@ const toggleHamburger = () => {
     var hamburgerMenu = document.getElementById("hamburgerMenu")
     hamburgerMenu.classList.toggle('active')
 
-    var everythingBlocker = document.getElementById("blockEverything")
+    var everythingBlocker = document.getElementByClass("blockEverything")
     everythingBlocker.classList.toggle('active')
 }
