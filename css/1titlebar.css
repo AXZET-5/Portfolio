@@ -32,11 +32,12 @@
     width: 100%;
     z-index: 998;
     background-color: rgba(0,0,0,0.5);
-    display: none;
+    display: inline;
+    opacity: 0;
 }
 
 .BlockEverything.active {
-    display: inline;
+    opacity: 1;
 }
 
 .HamburgerMenuButton {
