@@ -20,6 +20,15 @@
     }
 }
 
+.IconLeftTextRightDisplay {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.LeftIcon {
+    width: 100px;
+}
+
 
 .Card {
     background-color: rgba(245, 245, 245, 0.8);
