@@ -17,9 +17,5 @@ const snapToTop = () => {
 
 const toggleHamburger = () => {
     var hamburgerMenu = document.getElementById("hamburgerMenu")
-    if (hamburgerMenu.style.opacity === "0"){
-        hamburgerMenu.style.opacity = "1"
-    } else {
-        hamburgerMenu.style.opacity = "0"
-    }
+    hamburgerMenu.classList.toggle('active')
 }

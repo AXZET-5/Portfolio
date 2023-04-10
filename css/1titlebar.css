@@ -16,11 +16,14 @@
 
     position: fixed;
     top: 80px;
-    right: 10px;
-    display: none;
+    right: -75%;
+    display: inline;
 
-    opacity: 0;
     z-index: 999;
+}
+
+.Hamburger.active {
+    right: 10px;
 }
 
 .HamburgerMenuButton {
