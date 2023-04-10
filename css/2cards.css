@@ -48,8 +48,6 @@
         grid-template-columns: 1fr;
     }
     .LeftIcon {
-        margin-left: auto;
-        margin-right: auto;
         width: 60% !important;
     }
 }
