@@ -20,6 +20,6 @@ const toggleHamburger = () => {
     if (hamburgerMenu.style.top === "80px"){
         hamburgerMenu.style.top = "-1000px"
     } else {
-        hamburgerMenu.style.top = "-1000px"
+        hamburgerMenu.style.top = "80px"
     }
 }
