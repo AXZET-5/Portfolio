@@ -6,11 +6,20 @@ const snapToTop = () => {
     })
 }
 
-const toggleHamburger = () => {
+/*const toggleHamburger = () => {
     var hamburgerMenu = document.getElementById("hamburgerMenu")
     if (hamburgerMenu.style.display === "inline"){
         hamburgerMenu.style.display = "none"
     } else {
         hamburgerMenu.style.display = "inline"
+    }
+}*/
+
+const toggleHamburger = () => {
+    var hamburgerMenu = document.getElementById("hamburgerMenu")
+    if (hamburgerMenu.style.top === "80px"){
+        hamburgerMenu.style.top = "-1000px"
+    } else {
+        hamburgerMenu.style.top = "-1000px"
     }
 }
