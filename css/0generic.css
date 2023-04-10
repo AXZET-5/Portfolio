@@ -31,7 +31,7 @@
 
 .SnapToTop {
     background-color: white;
-    font: bold 20px Sans-Serif;
+    font: bold 20px Segoe UI, AvenirNext-Regular, Sans-Serif;
     color: #3F3F3F;
     position: fixed;
     bottom: 0;
