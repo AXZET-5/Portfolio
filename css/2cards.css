@@ -25,6 +25,12 @@
     grid-template-columns: 1fr 6fr;
 }
 
+@media only screen and (max-width: 1000px) {
+    .IconLeftTextRightDisplay {
+        grid-template-columns: 1fr 5fr;
+    }
+}
+
 .LeftIcon {
     width: 95%;
     min-height: 100%;
