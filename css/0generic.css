@@ -38,7 +38,7 @@
 
 .SnapToTop {
     background-color: white;
-    font: bold 20px Segoe UI, AvenirNext-Regular, Sans-Serif;
+    font: bold 20px Segoe UI, -apple-system, Sans-Serif;
     color: #3F3F3F;
     position: fixed;
     bottom: 0;
