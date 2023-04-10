@@ -13,3 +13,8 @@ const toggleHamburger = () => {
     var everythingBlocker = document.getElementById("blockEverything")
     everythingBlocker.classList.toggle('active')
 }
+
+const closeMenu = () => {
+    var hamburgerMenu = document.getElementById("hamburgerMenu")
+    hamburgerMenu.classList.remove('active')
+}
