@@ -14,12 +14,12 @@
     color: #3F3F3F
 }
 .CardSubheader{
-    font: bold 16px Segoe UI, AvenirNext-Regular, Sans-Serif;
+    font: bold 18px Segoe UI, AvenirNext-Regular, Sans-Serif;
     text-decoration: underline;
     color: #3F3F3F
 }
 .CardContent {
-    font: 14px Segoe UI, AvenirNext-Regular, Sans-Serif;
+    font: 16px Segoe UI, AvenirNext-Regular, Sans-Serif;
     font-weight: 500;
     color: #3F3F3F
 }
