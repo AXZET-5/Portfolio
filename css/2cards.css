@@ -37,9 +37,15 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .IconLeftTextRightDisplay {
         grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .IconLeftTextRightDisplay {
+        grid-template-columns: 1fr;
     }
 }
 
