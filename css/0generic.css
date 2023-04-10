@@ -5,11 +5,16 @@
 
 
 .EntirePage {
-    background-color: rgb(255, 245, 255);
+    /*background-color: rgb(255, 245, 255);
     background-image: url('/images/page_background.webp');
     background-repeat: repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     margin: 0;
+}
+.PageBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .Separator {
     font-size: 30px;
