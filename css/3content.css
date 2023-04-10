@@ -6,7 +6,7 @@
     height: 15px;
 }
 .CardTitle {
-    font: bold 22px Sans-Serif;
+    font: bold 22px Segoe UI, AvenirNext-Regular, Sans-Serif;
     color: #3F3F3F
 }
 .CardHumongousTitle {
@@ -14,12 +14,12 @@
     color: #3F3F3F
 }
 .CardSubheader{
-    font: bold 16px Sans-Serif;
+    font: bold 16px Segoe UI, AvenirNext-Regular, Sans-Serif;
     text-decoration: underline;
     color: #3F3F3F
 }
 .CardContent {
-    font: bold 14px Sans-Serif;
+    font: bold 14px Segoe UI, AvenirNext-Regular, Sans-Serif;
     color: #3F3F3F
 }
 .CardImage {
@@ -35,11 +35,11 @@
 }
 .CardImageCaption {
     text-align: center;
-    font: bold 22px Sans-Serif;
+    font: bold 22px Segoe UI, AvenirNext-Regular, Sans-Serif;
     color: #3F3F3F;
 }
 .CardImageCaption2 {
     text-align: center;
-    font: bold 16px Sans-Serif;
+    font: bold 16px Segoe UI, AvenirNext-Regular, Sans-Serif;
     color: #3F3F3F;
 }
