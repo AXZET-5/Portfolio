@@ -22,11 +22,11 @@
 
 .IconLeftTextRightDisplay {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 6fr;
 }
 
 .LeftIcon {
-    width: 100px;
+    width: 95%;
 }
 
 
