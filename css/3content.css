@@ -20,6 +20,7 @@
 }
 .CardContent {
     font: 14px Segoe UI, AvenirNext-Regular, Sans-Serif;
+    font-weight: 500;
     color: #3F3F3F
 }
 .CardImage {
