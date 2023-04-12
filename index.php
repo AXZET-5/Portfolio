@@ -16,8 +16,7 @@
 <body class="EntirePage">
     <img src="./images/page_background.webp" class="PageBackground">
 
-    <div class="TitleBarAligner"></div>
-    <iframe src="./frames/titlebar.html"></iframe>
+    <?php include_once "titlebar.php"; ?>
 
     <div class="Card">
         <div class="Columnising">
