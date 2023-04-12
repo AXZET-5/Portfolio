@@ -168,6 +168,9 @@
     cursor: pointer;
     scale: 1.15;
 }
+.MenuButton:hover > img {
+    filter: invert(100%);
+}
 .MenuButtonSelected:hover{
     background-color: #3F3F3F;
     color: white;
