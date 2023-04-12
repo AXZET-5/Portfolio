@@ -1,6 +1,6 @@
 .Reveal {
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(75px);
     opacity: 0;
     transition: 1s all ease;
 }
