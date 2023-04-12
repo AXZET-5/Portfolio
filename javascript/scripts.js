@@ -32,7 +32,6 @@ function reveal() {
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
-        sleep(100);
       } else {
         reveals[i].classList.remove("active");
       }
