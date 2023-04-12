@@ -32,12 +32,20 @@ function reveal() {
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
-        await new Promise(r => setTimeout(r, 100));
+        sleep(100);
       } else {
         reveals[i].classList.remove("active");
       }
     }
   }
+
+function sleep(milliseconds) {
+const date = Date.now();
+let currentDate = null;
+do {
+    currentDate = Date.now();
+} while (currentDate - date < milliseconds);
+}
   
 window.addEventListener("scroll", reveal);
 window.addEventListener("DOMContentLoaded", reveal);
