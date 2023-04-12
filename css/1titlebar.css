@@ -157,6 +157,11 @@
     background-color: #3F3F3F;
     color: white;
 }
+
+.MenuButtonSelected > img {
+    filter: invert(100%);
+}
+
 .MenuButton:hover{
     background-color: #3F3F3F;
     color: white;
