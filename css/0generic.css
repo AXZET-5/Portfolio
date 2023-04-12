@@ -18,6 +18,7 @@ iframe {
     background-image: url('/images/page_background.webp');
     background-repeat: repeat;
     background-attachment: fixed;*/
+    background: linear-gradient(white, rgb(30,33,57));
     margin: 0;
 }
 .PageBackground {
