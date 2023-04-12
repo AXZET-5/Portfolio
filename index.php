@@ -15,31 +15,8 @@
 </head>
 <body class="EntirePage">
     <img src="./images/page_background.webp" class="PageBackground">
-    <div class="TitleBarAligner"></div>
-    <div class="TitleBar">
-        <b class="Title" onclick="location.href='./'" type="button">Benz Chong's Portfolio</b>
-        <p></p>
-        <div class="MenuButtonWrapper">
-            <button class="MenuButtonSelected" onclick="location.href='./'" type="button">ㅁ Homepage</button>
-            <button class="MenuButton" onclick="location.href='./education'" type="button">ㅌ Education</button>
-            <button class="MenuButton" onclick="location.href='./achievements'" type="button">ㅍ Achievements</button>
-            <button class="MenuButton" onclick="location.href='./experience'" type="button">ㄹ Experience</button>
-        </div>
-        <div class="HamburgerButtonWrapper">
-            <button class="HamburgerIcon MenuButton" type="button" onclick="toggleHamburger()"><b>三</b></button>
-        </div>
-    </div>
-    <div class="Hamburger" id="hamburgerMenu">
-        <button class="HamburgerMenuButton MenuButtonSelected" onclick="location.href='./'" type="button">ㅁ Homepage</button>
-        <br>
-        <button class="HamburgerMenuButton MenuButton" onclick="location.href='./education'" type="button">ㅌ Education</button>
-        <br>
-        <button class="HamburgerMenuButton MenuButton" onclick="location.href='./achievements'" type="button">ㅍ Achievements</button>
-        <br>
-        <button class="HamburgerMenuButton MenuButton" onclick="location.href='./experience'" type="button">ㄹ Experience</button>
-    </div>
-    <div class="BlockEverything" id="blockEverything" onclick="closeMenu()" type="button"></div>
-    <p class="Separator"></p>
+
+    <?php include_once "titlebar.php"; ?>
 
     <div class="Card">
         <div class="Columnising">
