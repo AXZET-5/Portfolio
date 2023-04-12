@@ -32,7 +32,7 @@ function reveal() {
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
-        break;
+        await new Promise(r => setTimeout(r, 100));
       } else {
         reveals[i].classList.remove("active");
       }
