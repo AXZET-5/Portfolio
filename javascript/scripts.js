@@ -40,3 +40,8 @@ function reveal() {
   
   window.addEventListener("scroll", reveal);
   reveal();
+
+  while (1){
+    reveal();
+    console.log('reveal')
+  }
