@@ -15,6 +15,7 @@ const toggleHamburger = () => {
 
     var hamburgerIcons = document.getElementsByClassName("HamburgerIcon")
     for (hamburgerIcon in hamburgerIcons) {
+      print(hamburgerIcon)
       if (hamburgerMenu.classList.contains('active')) {
         hamburgerIcon.innerHTML = 'X'
       }
