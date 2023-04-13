@@ -12,6 +12,16 @@ const toggleHamburger = () => {
 
     var everythingBlocker = document.getElementById("blockEverything")
     everythingBlocker.classList.toggle('active')
+
+    var hamburgerIcons = document.getElementsByClassName("HamburgerIcon")
+    for (hamburgerIcon in hamburgerIcons) {
+      if (hamburgerMenu.classList.contains('active')) {
+        hamburgerIcon.innerHTML = 'X'
+      }
+      else {
+        hamburgerIcon.innerHTML = '三'
+      }
+    }
 }
 
 const closeMenu = () => {
