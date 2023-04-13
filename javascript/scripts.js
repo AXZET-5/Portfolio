@@ -21,10 +21,10 @@ const changeHamburgerIcon = () => {
   var hamburgerMenu = document.getElementById("hamburgerMenu")
     var hamburgerIcon = document.getElementById("hamburgerIcon")
     if (hamburgerMenu.classList.contains('active')) {
-      hamburgerIcon.innerHTML = '<text style="font-weight: 1000">⨠</text>'
+      hamburgerIcon.innerHTML = '<text style="font-weight: 1000" class="HamburgerInnerIcon">⨠</text>'
     }
     else {
-      hamburgerIcon.innerHTML = '<b>☰</b>'
+      hamburgerIcon.innerHTML = '<b class="HamburgerInnerIcon active">☰</b>'
     }
 }
 

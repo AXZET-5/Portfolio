@@ -185,5 +185,10 @@
 }
 
 .HamburgerInnerIcon {
-    height: 25px;
+    transition: 0.5s all ease;
+    transform: rotate(0);
+}
+
+.HamburgerInnerIcon.active {
+    transform: rotate(180);
 }
