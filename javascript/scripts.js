@@ -21,10 +21,10 @@ const changeHamburgerIcon = () => {
   var hamburgerMenu = document.getElementById("hamburgerMenu")
     var hamburgerIcon = document.getElementById("hamburgerIcon")
     if (hamburgerMenu.classList.contains('active')) {
-      hamburgerIcon.innerHTML = '<img src="./images/Close.svg">'
+      hamburgerIcon.innerHTML = '<img src="./images/Close.svg" class="HamburgerInnerIcon">'
     }
     else {
-      hamburgerIcon.innerHTML = '<img src="./images/Menu.svg">'
+      hamburgerIcon.innerHTML = '<img src="./images/Menu.svg" class="HamburgerInnerIcon">'
     }
 }
 

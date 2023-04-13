@@ -183,3 +183,7 @@
     cursor: pointer;
     scale: 1.15;
 }
+
+.HamburgerInnerIcon {
+    height: 20px;
+}
