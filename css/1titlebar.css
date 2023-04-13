@@ -52,6 +52,12 @@
     padding-right: 15px !important;
 }
 
+.HamburgerIcon:hover {
+    background-color: white !important;
+    color: #3F3F3F !important;
+    scale: 1 !important;
+}
+
 .TitleBarAligner {
     height: 70px;
 }
