@@ -21,7 +21,7 @@ const changeHamburgerIcon = () => {
   var hamburgerMenu = document.getElementById("hamburgerMenu")
     var hamburgerIcon = document.getElementById("hamburgerIcon")
     if (hamburgerMenu.classList.contains('active')) {
-      hamburgerIcon.innerHTML = '<text style="font-weight: 1000">⨠</text>'
+      hamburgerIcon.innerHTML = '<text style="font-weight: 900">⨠</text>'
     }
     else {
       hamburgerIcon.innerHTML = '<b>☰</b>'
