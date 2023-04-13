@@ -13,12 +13,18 @@ const toggleHamburger = () => {
     var everythingBlocker = document.getElementById("blockEverything")
     everythingBlocker.classList.toggle('active')
 
+    changeHamburgerIcon()
+}
+
+
+const changeHamburgerIcon = () => {
+  var hamburgerMenu = document.getElementById("hamburgerMenu")
     var hamburgerIcon = document.getElementById("hamburgerIcon")
     if (hamburgerMenu.classList.contains('active')) {
-      hamburgerIcon.innerHTML = 'X'
+      hamburgerIcon.innerHTML = '<img src="./images/Close.svg">'
     }
     else {
-      hamburgerIcon.innerHTML = '三'
+      hamburgerIcon.innerHTML = '<img src="./images/Menu.svg">'
     }
 }
 
@@ -56,3 +62,4 @@ do {
   
 window.addEventListener("scroll", reveal);
 window.addEventListener("DOMContentLoaded", reveal);
+window.addEventListener("DOMContentLoaded", changeHamburgerIcon)
