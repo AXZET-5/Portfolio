@@ -187,6 +187,7 @@
 .HamburgerInnerIcon {
     transition: 0.5s all ease;
     transform: rotate(0deg);
+    font-size: 18px;
 }
 
 .HamburgerInnerIcon.active {
